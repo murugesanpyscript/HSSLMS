@@ -1,0 +1,6 @@
+python lmssign.py --generate --lms_type LMS_SHA256_M24_H15 --lmots_type LMOTS_SHA256_N24_W4 --save_private_key "C:\Users\mmadappa\OneDrive - NANDPS\Python\LMS\HSSLMS Code\keyFile\privateKey" --save_public_key "C:\Users\mmadappa\OneDrive - NANDPS\Python\LMS\HSSLMS Code\keyFile\PublicKey" 
+
+python lmssign.py --sign --private_key_file  "C:\Users\mmadappa\OneDrive - NANDPS\Python\LMS\HSSLMS Code\keyFile\privateKey_21082024_214153" --save_signature "C:\Users\mmadappa\OneDrive - NANDPS\Python\LMS\HSSLMS Code\keyFile\signatureFile" --message "This is a Muru Secret message."
+
+
+python lmssign.py --sign --private_key_file  "C:\Users\mmadappa\OneDrive - NANDPS\Python\LMS\HSSLMS Code\keyFile\privateKey_21082024_214153" --save_signature "C:\Users\mmadappa\OneDrive - NANDPS\Python\LMS\HSSLMS Code\keyFile\signatureFile" --message "This is a Muru Secret message."
